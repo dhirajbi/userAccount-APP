@@ -1,8 +1,41 @@
-# Getting Started with Create React App
+# Account Management React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that allows users to register, log in, view, and edit their profile information. Built with Bootstrap 5 for responsive UI.
 
-## Available Scripts
+## Features
+- User registration (with name, email, password)
+- User login and authentication
+- Protected profile page
+- Edit and save account information
+- Logout
+- All data stored in browser localStorage (no backend required)
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Run the development server:**
+   ```sh
+   npm start
+   ```
+   App is available at [http://localhost:3000](http://localhost:3000)
+
+## Demo Usage
+- **Register:** Enter a unique name, a valid email (e.g. demo@gmail.com), and a password.
+- **Login:** Use the email and password you registered.
+- **View Profile:** See name/email and use the Edit button to update info.
+- **Logout:** Ends your session.
+
+## Notes
+- **Data Persistence:** User data is stored in the browser's localStorage, so it remains available in the same browser unless localStorage is cleared.
+- **Security:** This version is for demo/testing only; passwords are not hashed and are visible in localStorage.
+- **No backend server is used.**
+
+---
+
+## Project Scripts (from Create React App)
 
 In the project directory, you can run:
 
