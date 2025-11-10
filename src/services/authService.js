@@ -67,7 +67,7 @@ export function updateUser(id, name, email) {
   user.email = email;
   setUsers(users);
   // Ensure currentUser stays correct
-  if (localStorage.getItem(CURRENT_KEY) == ident) {
+  if (localStorage.getItem(CURRENT_KEY) === ident) {
     localStorage.setItem(CURRENT_KEY, ident);
   }
   notifyAuthChanged();
